@@ -8,11 +8,9 @@ const toggleMenu = () => {
 
 // Start Here: Create a reference to the ".menu" class
 const menu = document.querySelector('.menu');
-console.log(menu.classList);
-// menu.forEach(menu => new Menu(menu));
+// console.log(menu.classList);
 // create a reference to the ".menu-button" class
 const menuButton = document.querySelector('.menu-button');
-// menuButton.forEach(menubtn => new MenuButton(menubtn));
 // Using your menuButton reference, add a click handler that calls toggleMenu
 
 menuButton.addEventListener('click', () => toggleMenu());
